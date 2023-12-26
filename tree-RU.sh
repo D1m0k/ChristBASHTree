@@ -32,9 +32,9 @@ for ((i=1; i<=2; i++))
 new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
-tput cup $lin $((c - 6)); echo С Новым Годом и Рождеством!
-tput cup $((lin + 1)) $((c - 10)); echo Профессиональных успехов в $new_year !
-tput cup $((lin + 2)) $((c - 10)); echo Oт TotalCommander Power User
+tput cup $lin $((c - 8)); echo С Новым Годом и Рождеством!
+tput cup $((lin + 1)) $((c - 8)); echo Профессиональных успехов в $new_year !
+tput cup $((lin + 2)) $((c - 8)); echo Oт TotalCommander Power User
 let c++
 k=1
 
