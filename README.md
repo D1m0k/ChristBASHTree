@@ -10,10 +10,10 @@ Via cURL:
 
 ```
 # English version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+curl https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-EN.sh | bash
 
 # Spanish version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
+curl https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-ES.sh | bash
 
 # Russian version
 curl https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-RU.sh | bash
@@ -23,23 +23,26 @@ Via Wget:
 
 ```
 # English version
-wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+wget -qO- https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-EN.sh | bash
 
 # Spanish version
-wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
+wget -qO- https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-ES.sh | bash
+
+# Russian version
+wget -qO- https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-RU.sh | bash
 ```
 
 Docker:
 
 ```
-docker pull sergiolepore/christbashtree:latest
-docker run -it sergiolepore/christbashtree:latest
+docker pull D1m0k/christbashtree:latest
+docker run -it D1m0k/christbashtree:latest
 ```
 
 Git clone and execute:
 
 ```
-git clone https://github.com/sergiolepore/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
+git clone https://github.com/D1m0k/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
 ```
 
 __Enjoy!__
