@@ -14,6 +14,9 @@ curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-E
 
 # Spanish version
 curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
+
+# Russian version
+curl https://raw.githubusercontent.com/D1m0k/ChristBASHTree/master/tree-RU.sh | bash
 ```
 
 Via Wget:
